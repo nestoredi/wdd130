@@ -1,0 +1,52 @@
+nav {
+    background-color: grey;
+    padding: 10px;
+    width: 30em;
+    box-shadow: 0 0 30px lightgrey;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+main {
+    background-color: gray;
+    width: 30em;
+    padding: 10px;
+    text-align: center;
+}
+main img{
+    width: 150px;
+    height: auto;
+    align-items:center;
+    box-shadow: 0 0 10px lightgrey;
+}
+aside {
+    padding: 10px;
+    width: 30em;
+    background-color: grey;
+    box-shadow: 0 0 10px lightgray;
+    
+}
+aside h2{
+    color: white ;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+    
+}
+footer{
+    background-color: grey;
+    width: 30em;
+    text-align: center;
+    margin-top: 15px;
+    border-top: 1px 0 #000;
+}
+footer p {
+    color: white;
+}
+p {
+    padding: 0;
+    color: white;
+}
