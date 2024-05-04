@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" );
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #2d3047;
+    --secondary-color:#93b7be; 
+    --accent1-color:#e0ca3c;
+    --accent2-color: #a799b7 ;
+
+    --heading-font: 'Roboto',serif;
+    --paragraph-font: 'Open Sans',serif;
+
+    --nav-background-color:#2d3047;
+    --nav-link-color : #93b7be;
+    --nav-hover-link-color: #e0ca3c;
+    --nav-hover-background-color:#93b7be;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color :var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    
+}
+nav a {
+    display: block;
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color :var(--nav-hover-background-color)
+}
