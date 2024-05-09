@@ -6,6 +6,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color: var(--primary-color);
 }
 :root {
     --primary-color: #2d3047;
@@ -59,18 +60,34 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color :var(--nav-hover-background-color)
 }
-
+.plan {
+    background-color: var(--secondary-color);
+}
 
 
 .hero {
     background-image: url(/wwr/images/rafting65_600.jpg);
     background-size: cover;
     height: 300px;
+    position: relative;
 }
 article p {
-    background-color: rgba(0,50, 0, 0.5);
+    background-color: rgba(118, 107, 218, 0.5);
 }
 .aventure {
     width: 300px;
     height: 450px;
+}
+section{
+    background-color: var(--secondary-color);
+}
+.social img {
+    width: 25px;
+    height: auto;
+}
+.social{
+    display:flex;
+}
+footer {
+    background-color: var(--secondary-color);
 }
