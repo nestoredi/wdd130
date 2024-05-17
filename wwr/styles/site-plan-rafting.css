@@ -28,15 +28,16 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 header{
-    padding: 20px;
+    padding: 5px;
     background-color: var(--accent1-color);
     align-items: center;
 }
 header img {
     float: right;
     margin: 2px;
-    width:120px ;
+    width:100px ;
     height: auto;
+    margin-bottom: 20px;
     
     
 }
