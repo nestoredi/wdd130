@@ -11,23 +11,28 @@
 <body>
     <h1>Basic Html and Css Quiz</h1>
     <div class="quiz">
-        <form action="post">
-            <legend>HTML AND CSS QUIZ</legend><br><br>
-            
-                <label for="fname">First name:</label><br><br>
-
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label><br><br>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="lname">Last name:</label><br><br>
-                <input type="text" id="lname" name="lname"><BR>
-                <label for="lname">Last name:</label><br><br>
-                <input type="text" id="lname" name="lname"><br><br>
-                <button type="submit">send</button>
-                
-
-        </form>
+       <form>
+        <label >What does HTML mean</label><br>
+        <input id="q1" type="text" name="q1" cols="50"/><br>
+        <label >Write How to change the color in a div</label><br>
+        <textarea name="q2" id="q2" rows="10" cols="50">Write something here</textarea><br><br>
+        <label >Is this right? flex-flow: row wrap </label><br>
+        <input type="radio" name="q3" id="q3" /> yes<br />
+        <input type="radio" name="q3" id="q3" /> no<br />
+        <input type="radio" name="q3" id="q3" /> don`t know<br />
+        <label for="">What do I use to center an h1? </label><br>
+        <select>
+          <option value="" >Choose one</option>
+          <option value="">text-align</option>
+          <option value="">justify-content</option>
+          <option  value=""><align-items>display:block</align-items></option><br>
           
+        </select><br>
+        <button class="bt" type="submit">Send</button>
+
+
+        
+       </form>
     </div>
     
 </body>

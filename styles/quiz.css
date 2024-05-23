@@ -1,5 +1,24 @@
-
+*{
+    
+    align-items: center;
+}
 .quiz{
-    display: flex;
-    flex-direction:column;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    background-color: aqua;
+    width: 400px;
+    padding: 50px;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+.bt {
+    width: 100px;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin: 5px;
 }
