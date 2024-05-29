@@ -143,9 +143,12 @@ footer nav {
 }
 .form{
     display: flex;
-    border: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 25px;
     justify-content: center;
     align-items: center;
+    background-color: #93b7be;
 }
 .tex{
     width: 300px;
@@ -169,7 +172,44 @@ figure img{
 }
 figcaption{
     text-align: center;
+    color: #93b7be;
 }
 .tit{
     background-color: var(--accent1-color);
 }
+.home{
+    background-image: url(/wwr/images/home1.jpg);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.home1{
+    color:#2d3047;
+    background-color: rgba(202, 200, 217, 0.5);
+   
+}
+.home2{
+    background-image: url(/wwr/images/rafting43_600.jpg);
+    height: 300px;
+}
+.home2 img{
+    width: 150px;
+    height: 150px;
+    justify-content: space-evenly;
+    border: 50px;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+}
+.fcc-btn {
+    background-color:#2d3047;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
