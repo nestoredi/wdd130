@@ -178,7 +178,7 @@ figcaption{
     background-color: var(--accent1-color);
 }
 .home{
-    background-image: url(../images/home1.jpg);
+    background-image: url("../images/home2.jpg");
     height: 300px;
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@ figcaption{
    
 }
 .home2{
-    background-image: url(../images/rafting43_600.jpg);
+    background-image:url("../images/home3.jpg");
     height: 300px;
 }
 .home2 img{
@@ -211,5 +211,8 @@ figcaption{
     padding: 15px 25px;
     text-decoration: none;
     border-radius: 10px;
+  }
+  #h2{
+    color: var(--accent1-color);
   }
   
