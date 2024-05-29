@@ -83,7 +83,7 @@ nav a:hover {
 
 
 .hero {
-    background-image:url('../images/rafting31_600.jpg');
+    background-image:url('../images/home1.jpg');
     background-size: cover;
     height: 300px;
     position: relative;
@@ -139,6 +139,7 @@ footer nav {
 }
 .cont{
     display: flex;
+    justify-content: space-evenly;
    
 }
 .form{
@@ -178,7 +179,7 @@ figcaption{
     background-color: var(--accent1-color);
 }
 .home{
-    background-image: url("../images/home2.jpg");
+    background-image: url('../images/home2.jpg');
     height: 300px;
     display: flex;
     align-items: center;
