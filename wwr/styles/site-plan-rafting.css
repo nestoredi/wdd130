@@ -250,5 +250,11 @@ figcaption{
     color: #93b7be;
     text-align: center;
 }
+.tab{
+    background-color: #93b7be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   
