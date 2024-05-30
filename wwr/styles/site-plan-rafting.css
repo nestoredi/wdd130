@@ -216,4 +216,39 @@ figcaption{
   #h2{
     color: var(--accent1-color);
   }
+.trip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.trip img{
+    width: 200px;
+    height: 200px;
+}
+#trip{
+    color: #93b7be;
+    text-align: center;
+}
+.tours{
+    display: flex;
+}
+.tours figure{
+    justify-content:space-evenly;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fcc{
+    background-color:#020a47;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#guide{
+    color: #93b7be;
+    text-align: center;
+}
+
   
